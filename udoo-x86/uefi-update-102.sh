@@ -27,7 +27,7 @@
 #     3.2) write "terminal" to search-field and start Terminal
 #     3.3) write following command to Terminal:
 #
-#   curl -qfsL https://github.com/malaire/misc/udoo-x86/uefi-update-102.sh | sudo bash
+#   curl -qfL https://raw.githubusercontent.com/malaire/misc/master/udoo-x86/uefi-update-102.sh | sudo bash
 #   
 # LICENSE
 #
@@ -74,8 +74,7 @@ echo
 unzip "$ZIPFILE"
 cd "${ZIPDIR%.*}"/Linux/x64
 cp ../../Bios/* .
-cp x64/H2OFFT-Lx64 .
-chmod +x bios_updater_x64.sh H2OFFT-Lx64 x64/*
+chmod +x bios_updater_x64.sh H2OFFTx64.sh x64/H2OFFT-Lx64
 
 echo
 echo "Updating ..."
