@@ -27,7 +27,7 @@
 #     3.2) write "terminal" to search-field and start Terminal
 #     3.3) write following command to Terminal:
 #
-#   curl -qfL https://raw.githubusercontent.com/malaire/misc/master/udoo-x86/uefi-update-102.sh | sudo bash
+#       curl -qfL https://iet.fi/misc/udoo-x86-uefi-update-102 | sudo bash
 #   
 # LICENSE
 #
