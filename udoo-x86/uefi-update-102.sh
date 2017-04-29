@@ -72,7 +72,7 @@ echo "Preparing for UEFI update ..."
 echo
 
 unzip "$ZIPFILE"
-cd "${ZIPDIR%.*}"/Linux/x64
+cd "$ZIPDIR/Linux/x64"
 cp ../../Bios/* .
 chmod +x bios_updater_x64.sh H2OFFTx64.sh x64/H2OFFT-Lx64
 
