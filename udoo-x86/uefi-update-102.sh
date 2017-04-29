@@ -84,4 +84,4 @@ sudo ./bios_updater_x64.sh "$BIOSFILE"
 
 # cleanup
 cd
-rm -rf "$ZIPDIR"
+rm -rf "$DIR"
