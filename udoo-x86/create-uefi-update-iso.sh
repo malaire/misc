@@ -5,6 +5,11 @@
 #   Creates an ISO image which auto updates UEFI of UDOO X86 without requiring
 #   any user action, except as needed to make UDOO X86 boot from correct device.
 #
+# KNOWN ISSUES
+#
+#   PLEASE CHECK GITHUB ISSUES BEFORE USING FOR ANY KNOWN ISSUES
+#   - https://github.com/malaire/misc/issues
+#
 # REQUIREMENTS
 #
 #   This has been only tested in Debian Jessie so far.
