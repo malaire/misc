@@ -54,7 +54,6 @@
 set -e
 
 ZIPFILE="UDOOX86_B02-UEFI_Update_rel103.zip"
-ZIPDIR="${ZIPFILE%.*}"
 BIOSFILE="0B020000.103"
 URL="http://download.udoo.org/files/UDOO_X86/UEFI_update/$ZIPFILE"
 DIR=$(mktemp -d /tmp/uefi-update-XXXXXXXX)
@@ -72,7 +71,7 @@ echo "Preparing for UEFI update ..."
 echo
 
 unzip "$ZIPFILE"
-cd "$ZIPDIR/Linux/x64"
+cd "Linux/x64"
 cp ../../Bios/* .
 chmod +x bios_updater_x64.sh H2OFFTx64.sh x64/H2OFFT-Lx64
 
