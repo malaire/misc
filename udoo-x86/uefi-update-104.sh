@@ -27,11 +27,11 @@
 #     3.2) write "terminal" to search-field and start Terminal
 #     3.3) write following command to Terminal:
 #
-#       curl -qfL https://raw.githubusercontent.com/malaire/misc/master/udoo-x86/uefi-update-104.sh | sudo bash
+#       curl -qfL https://iet.fi/misc/udoo-x86-uefi-update-104 | sudo bash
 #   
 # LICENSE
 #
-#   Copyright (c) 2017 Markus Laire
+#   Copyright (c) 2017-2018 Markus Laire
 #
 #   Permission is hereby granted, free of charge, to any person obtaining a copy
 #   of this software and associated documentation files (the "Software"), to
