@@ -27,7 +27,7 @@
 #     3.2) write "terminal" to search-field and start Terminal
 #     3.3) write following command to Terminal:
 #
-#       curl -qfL https://raw.githubusercontent.com/thushan/udoox86-firmware-updater/master/udoo-x86/uefi-update-106.sh | sudo bash
+#       curl -qfL https://raw.githubusercontent.com/malaire/misc/master/udoo-x86/uefi-update-106.sh | sudo bash
 #
 # LICENSE
 #
